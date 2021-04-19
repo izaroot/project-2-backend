@@ -1,166 +1,164 @@
 {
-  "games": [ 
+  "games": [
     {
       "id": 1,
       "title": "Burnout Paradise Remastered",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238080/header.jpg?t=1598622304",
-      "likes": 2,
+      "likes": 7,
       "favorited": false,
       "year": 2020,
-       "avgScore": "4",
-      "genre" : "Racing",
+      "avgScore": "4",
+      "genre": "Racing",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": true,
-          "Switch": true
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": true,
+        "Switch": true
+      }
     },
     {
       "id": 2,
       "title": "Halo: The Master Chief Collection",
       "image": "",
-      "likes": 2,
+      "likes": 6,
       "favorited": false,
       "year": 2014,
-       "avgScore": "10",
-      "genre" : "FPS",
+      "avgScore": "10",
+      "genre": "FPS",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": false,
-          "Switch": false
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": false,
+        "Switch": false
+      }
     },
     {
       "id": 3,
       "title": "Destiny 2",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2017,
-       "avgScore": "10",
-      "genre" : "Looter-Shooter",
+      "avgScore": "10",
+      "genre": "Looter-Shooter",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": true,
-          "Switch": false
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": true,
+        "Switch": false
+      }
     },
     {
       "id": 4,
       "title": "Hollow Knight",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2017,
-       "avgScore": "10",
-      "genre" : "Platformer",
+      "avgScore": "10",
+      "genre": "Platformer",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": true,
-          "Switch": true
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": true,
+        "Switch": true
+      }
     },
     {
       "id": 5,
       "title": "Super Smash Bros Ultimate",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2018,
-       "avgScore": "10",
-      "genre" : "Fighter",
+      "avgScore": "10",
+      "genre": "Fighter",
       "platform": {
-          "PC" : false,
-          "Xbox": false,
-          "PS": false,
-          "Switch": true
-        }
+        "PC": false,
+        "Xbox": false,
+        "PS": false,
+        "Switch": true
+      }
     },
     {
       "id": 6,
       "title": "Terraria",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2018,
-       "avgScore": "10",
-      "genre" : "Sandbox",
+      "avgScore": "10",
+      "genre": "Sandbox",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": true,
-          "Switch": true
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": true,
+        "Switch": true
+      }
     },
     {
       "id": 7,
       "title": "Bloodborne",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2015,
-       "avgScore": "10",
-      "genre" : "RPG",
+      "avgScore": "10",
+      "genre": "RPG",
       "platform": {
-          "PC" : false,
-          "Xbox": false,
-          "PS": true,
-          "Switch": false
-        }
+        "PC": false,
+        "Xbox": false,
+        "PS": true,
+        "Switch": false
+      }
     },
     {
       "id": 8,
       "title": "Forza Horizon 4",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2018,
-       "avgScore": "10",
-      "genre" : "Racing",
+      "avgScore": "10",
+      "genre": "Racing",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": false,
-          "Switch": false
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": false,
+        "Switch": false
+      }
     },
     {
       "id": 9,
       "title": "Monster Hunter World",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2018,
-       "avgScore": "10",
-      "genre" : "RPG",
+      "avgScore": "10",
+      "genre": "RPG",
       "platform": {
-          "PC" : true,
-          "Xbox": true,
-          "PS": true,
-          "Switch": false
-        }
+        "PC": true,
+        "Xbox": true,
+        "PS": true,
+        "Switch": false
+      }
     },
     {
       "id": 10,
       "title": "Super Mario Odyssey",
       "image": "",
-      "likes": 2,
+      "likes": 4,
       "favorited": false,
       "year": 2017,
-       "avgScore": "10",
-      "genre" : "RPG",
+      "avgScore": "10",
+      "genre": "RPG",
       "platform": {
-          "PC" : false,
-          "Xbox": false,
-          "PS": false,
-          "Switch": false
-        }
+        "PC": false,
+        "Xbox": false,
+        "PS": false,
+        "Switch": false
+      }
     }
-    
   ]
-
 }
