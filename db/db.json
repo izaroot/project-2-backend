@@ -4,14 +4,14 @@
       "id": 1,
       "title": "Burnout Paradise Remastered",
       "image": "https://cdn.cloudflare.steamstatic.com/steam/apps/1238080/header.jpg?t=1598622304",
-      "likes": 7,
+      "likes": 6,
       "favorited": false,
       "year": 2020,
       "avgScore": "4",
       "genre": "Racing",
       "platform": {
         "PC": true,
-        "Xbox": false,
+        "Xbox": true,
         "PS": true,
         "Switch": true
       }
@@ -19,8 +19,8 @@
     {
       "id": 2,
       "title": "Halo: The Master Chief Collection",
-      "image": "",
-      "likes": 3,
+      "image": "https://www.eteknix.com/wp-content/uploads/2014/07/halo-master-chief-collection.jpg",
+      "likes": 7,
       "favorited": false,
       "year": 2014,
       "avgScore": "10",
@@ -35,8 +35,8 @@
     {
       "id": 3,
       "title": "Destiny 2",
-      "image": "",
-      "likes": 2,
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/1085660/capsule_616x353.jpg?t=1617205372",
+      "likes": 3,
       "favorited": false,
       "year": 2017,
       "avgScore": "10",
@@ -51,7 +51,7 @@
     {
       "id": 4,
       "title": "Hollow Knight",
-      "image": "",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg?t=1601950406",
       "likes": 2,
       "favorited": false,
       "year": 2017,
@@ -67,8 +67,8 @@
     {
       "id": 5,
       "title": "Super Smash Bros Ultimate",
-      "image": "",
-      "likes": 2,
+      "image": "https://i.gadgets360cdn.com/large/super_smash_bros_ultimate_nintendo_switch_cover_1534157121839.jpg?output-quality=80&output-format=webp",
+      "likes": 4,
       "favorited": false,
       "year": 2018,
       "avgScore": "10",
@@ -83,8 +83,8 @@
     {
       "id": 6,
       "title": "Terraria",
-      "image": "",
-      "likes": 2,
+      "image": "https://cdn01.nintendo-europe.com/media/images/11_square_images/games_18/nintendo_switch_download_software/SQ_NSwitchDS_Terraria_image500w.jpg",
+      "likes": 3,
       "favorited": false,
       "year": 2018,
       "avgScore": "10",
@@ -99,8 +99,8 @@
     {
       "id": 7,
       "title": "Bloodborne",
-      "image": "",
-      "likes": 2,
+      "image": "https://www.mobygames.com/images/covers/l/476119-bloodborne-playstation-4-front-cover.jpg",
+      "likes": 3,
       "favorited": false,
       "year": 2015,
       "avgScore": "10",
