@@ -1,0 +1,3 @@
+{
+    "/games/:id": "/games/:id?_embed=reviews"
+}

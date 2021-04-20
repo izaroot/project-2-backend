@@ -115,7 +115,7 @@
     {
       "id": 8,
       "title": "Forza Horizon 4",
-      "image": "",
+      "image": "https://senna.com/files/00/54/news_image_54.jpg",
       "likes": 2,
       "favorited": false,
       "year": 2018,
@@ -131,7 +131,7 @@
     {
       "id": 9,
       "title": "Monster Hunter World",
-      "image": "",
+      "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/capsule_616x353.jpg?t=1613693233",
       "likes": 2,
       "favorited": false,
       "year": 2018,
@@ -147,7 +147,7 @@
     {
       "id": 10,
       "title": "Super Mario Odyssey",
-      "image": "",
+      "image": "https://assets.nintendo.com/image/upload/c_pad,f_auto,h_613,q_auto,w_1089/ncom/en_US/games/switch/s/super-mario-odyssey-switch/hero?v=2021042017",
       "likes": 2,
       "favorited": false,
       "year": 2017,
@@ -157,8 +157,70 @@
         "PC": false,
         "Xbox": false,
         "PS": false,
-        "Switch": false
+        "Switch": true
       }
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "review": "GAME IS GREAT!",
+      "score": 8,
+      "gameId": 1
+    },
+    {
+      "id": 2,
+      "review": "A whole lot of Master Chief in one complete package!",
+      "score": 9.75,
+      "gameId": 2
+    },
+    {
+      "id": 3,
+      "review": "It's your destiny to play this game. 10/10",
+      "score": 10,
+      "gameId": 3
+    },
+    {
+      "id": 4,
+      "review": "Nail is OP",
+      "score": 10,
+      "gameId": 4
+    },
+    {
+      "id": 5,
+      "review": "You can play this game forever. (And there are many Fire Emblem/Sword characters to gripe about).",
+      "score": 10,
+      "gameId": 5
+    },
+    {
+      "id": 6,
+      "review": "I spent four hours getting a pet unicorn by slaughtering many of its kind",
+      "score": 10,
+      "gameId": 6
+    },
+    {
+      "id": 7,
+      "review": "You will die again, and again, and again, and again.....",
+      "score": 10,
+      "gameId": 7
+    },
+    {
+      "id": 8,
+      "review": "Probably the best racing game out there!",
+      "score": 10,
+      "gameId": 8
+    },
+    {
+      "id": 9,
+      "review": "Who doesn't want to hunt monsters??",
+      "score": 10,
+      "gameId": 9
+    },
+    {
+      "id": 10,
+      "review": "Mario has this new cap friend, he can throw him around and smack goombas with it. What is there to complain about? ",
+      "score": 10,
+      "gameId": 10
     }
   ]
 }
