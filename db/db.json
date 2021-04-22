@@ -52,7 +52,7 @@
       "id": 4,
       "title": "Hollow Knight",
       "image": "https://cdn.akamai.steamstatic.com/steam/apps/367520/header.jpg?t=1601950406",
-      "likes": 2,
+      "likes": 3,
       "favorited": false,
       "year": 2017,
       "avgScore": "10",
@@ -244,6 +244,18 @@
     {
       "id": 2,
       "username": "Isaac"
+    },
+    {
+      "username": "Somebody",
+      "id": 3
+    },
+    {
+      "username": "Somebody New",
+      "id": 4
+    },
+    {
+      "username": "random person 3",
+      "id": 5
     }
   ],
   "favoriteslist": [
@@ -269,6 +281,16 @@
         6,
         9
       ]
+    },
+    {
+      "userId": 4,
+      "favoritedGames": [],
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "favoritedGames": [],
+      "id": 4
     }
   ]
 }
