@@ -4,32 +4,72 @@
           "id": 1,
           "name": "Columbian",
           "type": "coffee",
-          "description": ""
+          "description": "",
+          "vegan": true
       },
       {
           "id": 2,
           "name": "Earl Grey",
           "type": "tea",
-          "description": ""
+          "description": "",
+          "vegan": true
       },
       {
           "id": 3,
           "name": "Almondmilk",
           "type": "cream",
-          "description": ""
+          "description": "",
+          "vegan": true
       },
       {
           "id": 4,
           "name": "Cinnamon",
           "type": "addin",
-          "description": ""
+          "description": "",
+          "vegan": true
       },
       {
           "id": 5,
           "name": "Cocoa",
           "type": "cocoa",
-          "description": "It's cocoa. That's it."
-      }
+          "description": "It's cocoa. That's it.",
+          "vegan": true
+      },
+      {
+        "id": 6,
+        "name": "Sumatran",
+        "type": "coffee",
+        "description": "A bold and dark delight.",
+        "vegan": true
+    },
+    {
+        "id": 7,
+        "name": "Lemon Zinger",
+        "type": "tea",
+        "description": "A sweet citrus and fruity sensation.",
+        "vegan": true
+    },
+    {
+        "id": 8,
+        "name": "Whole Milk",
+        "type": "cream",
+        "description": "",
+        "vegan": false
+    },
+    {
+        "id": 9,
+        "name": "Vanilla",
+        "type": "addin",
+        "description": "",
+        "vegan": true
+    },
+    {
+        "id": 10,
+        "name": "Honey",
+        "type": "addin",
+        "description": "",
+        "vegan": false
+    }
   ],
   "beverages": [
       {
