@@ -1,63 +1,80 @@
 {
-  "ingredients":[
-      {
-          "id": 1,
-          "name": "Columbian",
-          "type": "coffee",
-          "description": ""
-      },
-      {
-          "id": 2,
-          "name": "Earl Grey",
-          "type": "tea",
-          "description": ""
-      },
-      {
-          "id": 3,
-          "name": "Almondmilk",
-          "type": "cream",
-          "description": ""
-      },
-      {
-          "id": 4,
-          "name": "Cinnamon",
-          "type": "addin",
-          "description": ""
-      },
-      {
-          "id": 5,
-          "name": "Cocoa",
-          "type": "cocoa",
-          "description": "It's cocoa. That's it."
-      }
-  ],
-  "beverages": [
-      {
-          "id":1,
-          "name": "Cappuccino",
-          "base": "Espresso",
-          "creamer": "Almonmilk",
-          "addins": "Cinnamon",
-          "iced": false,
-          "vegan": true,
-          "description": ""
-      },
-      {
-        "id":2,
-        "name": "Black",
-        "base": "Columbian",
-        "creamer": "",
-        "addins": "",
-        "iced": false,
-        "vegan": true,
-        "description": ""
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Columbian",
+      "type": "coffee",
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Earl Grey",
+      "type": "tea",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "name": "Almondmilk",
+      "type": "cream",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "name": "Cinnamon",
+      "type": "addin",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "name": "Cocoa",
+      "type": "cocoa",
+      "description": "It's cocoa. That's it."
     }
   ],
-  "users":[
-      {
-          "id": 1,
-          "name": "someone",
-          "drinks": [1]
-      }
+  "beverages": [
+    {
+      "id": 1,
+      "name": "Cappuccino",
+      "base": "Espresso",
+      "creamer": "Almonmilk",
+      "addins": "Cinnamon",
+      "iced": false,
+      "vegan": true,
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Black",
+      "base": "Columbian",
+      "creamer": "",
+      "addins": "",
+      "iced": false,
+      "vegan": true,
+      "description": ""
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "someone",
+      "drinks": [
+        1
+      ]
+    },
+    {
+      "username": "Isaac",
+      "drinks": [],
+      "id": 2
+    },
+    {
+      "username": "Itche",
+      "drinks": [],
+      "id": 3
+    },
+    {
+      "username": "New Itche",
+      "drinks": [],
+      "id": 4
+    }
   ]
 }

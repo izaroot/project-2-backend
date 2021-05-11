@@ -56,7 +56,7 @@
   "users":[
       {
           "id": 1,
-          "name": "someone",
+          "username": "someone",
           "drinks": [1]
       }
   ]
