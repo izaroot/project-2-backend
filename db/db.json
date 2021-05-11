@@ -37,7 +37,7 @@
       "name": "Cappuccino",
       "base": "Espresso",
       "creamer": "Almonmilk",
-      "addins": "Cinnamon",
+      "addins": ["Cinnamon"],
       "iced": false,
       "vegan": true,
       "description": ""
@@ -47,7 +47,7 @@
       "name": "Black",
       "base": "Columbian",
       "creamer": "",
-      "addins": "",
+      "addins": [""],
       "iced": false,
       "vegan": true,
       "description": ""
