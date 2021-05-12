@@ -1,103 +1,122 @@
 {
-  "ingredients":[
-      {
-          "id": 1,
-          "name": "Columbian",
-          "type": "coffee",
-          "description": "",
-          "vegan": true
-      },
-      {
-          "id": 2,
-          "name": "Earl Grey",
-          "type": "tea",
-          "description": "",
-          "vegan": true
-      },
-      {
-          "id": 3,
-          "name": "Almondmilk",
-          "type": "cream",
-          "description": "",
-          "vegan": true
-      },
-      {
-          "id": 4,
-          "name": "Cinnamon",
-          "type": "addin",
-          "description": "",
-          "vegan": true
-      },
-      {
-          "id": 5,
-          "name": "Cocoa",
-          "type": "cocoa",
-          "description": "It's cocoa. That's it.",
-          "vegan": true
-      },
-      {
-        "id": 6,
-        "name": "Sumatran",
-        "type": "coffee",
-        "description": "A bold and dark delight.",
-        "vegan": true
+  "ingredients": [
+    {
+      "id": 1,
+      "name": "Columbian",
+      "type": "coffee",
+      "description": "",
+      "vegan": true
     },
     {
-        "id": 7,
-        "name": "Lemon Zinger",
-        "type": "tea",
-        "description": "A sweet citrus and fruity sensation.",
-        "vegan": true
+      "id": 2,
+      "name": "Earl Grey",
+      "type": "tea",
+      "description": "",
+      "vegan": true
     },
     {
-        "id": 8,
-        "name": "Whole Milk",
-        "type": "cream",
-        "description": "",
-        "vegan": false
+      "id": 3,
+      "name": "Almondmilk",
+      "type": "cream",
+      "description": "",
+      "vegan": true
     },
     {
-        "id": 9,
-        "name": "Vanilla",
-        "type": "addin",
-        "description": "",
-        "vegan": true
+      "id": 4,
+      "name": "Cinnamon",
+      "type": "addin",
+      "description": "",
+      "vegan": true
     },
     {
-        "id": 10,
-        "name": "Honey",
-        "type": "addin",
-        "description": "",
-        "vegan": false
+      "id": 5,
+      "name": "Cocoa",
+      "type": "cocoa",
+      "description": "It's cocoa. That's it.",
+      "vegan": true
+    },
+    {
+      "id": 6,
+      "name": "Sumatran",
+      "type": "coffee",
+      "description": "A bold and dark delight.",
+      "vegan": true
+    },
+    {
+      "id": 7,
+      "name": "Lemon Zinger",
+      "type": "tea",
+      "description": "A sweet citrus and fruity sensation.",
+      "vegan": true
+    },
+    {
+      "id": 8,
+      "name": "Whole Milk",
+      "type": "cream",
+      "description": "",
+      "vegan": false
+    },
+    {
+      "id": 9,
+      "name": "Vanilla",
+      "type": "addin",
+      "description": "",
+      "vegan": true
+    },
+    {
+      "id": 10,
+      "name": "Honey",
+      "type": "addin",
+      "description": "",
+      "vegan": false
     }
   ],
   "beverages": [
-      {
-          "id":1,
-          "name": "Cappuccino",
-          "base": "Espresso",
-          "creamer": "Almonmilk",
-          "addins": ["Cinnamon"],
-          "iced": false,
-          "vegan": true,
-          "description": ""
-      },
-      {
-        "id":2,
-        "name": "Black",
-        "base": "Columbian",
-        "creamer": "",
-        "addins": [""],
-        "iced": false,
-        "vegan": true,
-        "description": ""
+    {
+      "id": 1,
+      "name": "Cappuccino",
+      "base": "Espresso",
+      "creamer": "Almonmilk",
+      "addins": [
+        "Cinnamon"
+      ],
+      "iced": false,
+      "vegan": true,
+      "description": ""
+    },
+    {
+      "id": 2,
+      "name": "Black",
+      "base": "Columbian",
+      "creamer": "",
+      "addins": [
+        ""
+      ],
+      "iced": false,
+      "vegan": true,
+      "description": ""
+    },
+    {
+      "name": "Isaacs favorite",
+      "base": "Sumatran",
+      "creamer": "Whole Milk",
+      "addins": [
+        "Vanilla",
+        "Cinnamon"
+      ],
+      "iced": false,
+      "vegan": false,
+      "description": "Sweet cinnamony coffee goodness",
+      "id": 3
     }
   ],
-  "users":[
-      {
-          "id": 1,
-          "username": "someone",
-          "drinks": [1]
-      }
+  "users": [
+    {
+      "id": 1,
+      "username": "someone",
+      "drinks": [
+        1
+      ]
+    }
   ]
 }
