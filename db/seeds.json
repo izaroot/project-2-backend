@@ -4,28 +4,28 @@
           "id": 1,
           "name": "Columbian",
           "type": "coffee",
-          "description": "",
+          "description": "A strong caramel sweetness,  with a nutty undertone. Perfect for everyday.",
           "vegan": true
       },
       {
           "id": 2,
           "name": "Earl Grey",
           "type": "tea",
-          "description": "",
+          "description": "Earl Grey Tea is a fine black tea  blended with citrus. A unique floral aroma and refreshing taste.",
           "vegan": true
       },
       {
           "id": 3,
           "name": "Almondmilk",
           "type": "cream",
-          "description": "",
+          "description": "A nutty flavor and creamy texture.",
           "vegan": true
       },
       {
           "id": 4,
           "name": "Cinnamon",
           "type": "addin",
-          "description": "",
+          "description": "A sweet and woody flavour.",
           "vegan": true
       },
       {
@@ -46,7 +46,7 @@
         "id": 7,
         "name": "Lemon Zinger",
         "type": "tea",
-        "description": "A sweet citrus and fruity sensation.",
+        "description": "Real lemons and lemongrass with hibiscus. A bright tea that's perfect in any weather.",
         "vegan": true
     },
     {
@@ -69,6 +69,76 @@
         "type": "addin",
         "description": "",
         "vegan": false
+    },
+    {
+        "id": 11,
+        "name": "Goat milk",
+        "type": "creamer",
+        "description": "",
+        "vegan": false
+    },
+    {
+        "id": 12,
+        "name": "Lemon",
+        "type": "addin",
+        "description": "Add a soury flavor.",
+        "vegan": true
+    },
+    {
+        "id": 13,
+        "name": "Ginger",
+        "type": "addin",
+        "description": "Add a slightly peppery and tangy flavor.",
+        "vegan": true
+    },
+    {
+        "id": 14,
+        "name": "Green Tea",
+        "type": "tea",
+        "description": "A refreshing way to start your day with young green tea leaves.",
+        "vegan": true
+    },
+    {
+        "id": 15,
+        "name": "Chamomile Tea",
+        "type": "tea",
+        "description": "Has a gentle flavour that even from the very first sip it feels wonderfully soothing.",
+        "vegan": true
+    },
+    {
+        "id": 16,
+        "name": "Peppermint tea",
+        "type": "tea",
+        "description": "A light, refreshing, minty and mildly sweet taste, leaving a cooling sensation in the mouth.",
+        "vegan": true
+    },
+    {
+        "id": 17,
+        "name": "Oolong Tea",
+        "type": "tea",
+        "description": "A stong distinct flavor, leaving a thick mouthfeel sensation",
+        "vegan": true
+    },
+    {
+        "id": 18,
+        "name": "Black Cherry Berry",
+        "type": "tea",
+        "description": "The perfect way to spoil yourself and unwind and relax after a long day.",
+        "vegan": true
+    },
+    {
+        "id": 19,
+        "name": "Herbal Tension Tamer Tea",
+        "type": "tea",
+        "description": "The finest herbs to release the tension within you.",
+        "vegan": true
+    },
+    {
+        "id": 20,
+        "name": "Herbal Sleepytime Tea",
+        "type": "tea",
+        "description": "A herbal blend to aid with sleeping. Great for children as well.",
+        "vegan": true
     }
   ],
   "beverages": [
