@@ -75,6 +75,7 @@
       {
           "id":1,
           "name": "Cappuccino",
+          "baseType": "coffee",
           "base": "Espresso",
           "creamer": "Almonmilk",
           "addins": ["Cinnamon"],
@@ -86,6 +87,7 @@
         "id":2,
         "name": "Black",
         "base": "Columbian",
+        "baseType": "coffee",
         "creamer": "",
         "addins": [""],
         "iced": false,
@@ -96,8 +98,13 @@
   "users":[
       {
           "id": 1,
-          "username": "someone",
-          "drinks": [1]
-      }
+          "username": "Isaac",
+          "favorites": [1]
+      },
+      {
+        "id": 2,
+        "username": "Itche",
+        "favorites": [1]
+    }
   ]
 }

@@ -75,6 +75,7 @@
     {
       "id": 1,
       "name": "Cappuccino",
+      "baseType": "coffee",
       "base": "Espresso",
       "creamer": "Almonmilk",
       "addins": [
@@ -88,6 +89,7 @@
       "id": 2,
       "name": "Black",
       "base": "Columbian",
+      "baseType": "coffee",
       "creamer": "",
       "addins": [
         ""
@@ -97,24 +99,31 @@
       "description": ""
     },
     {
-      "name": "Isaacs favorite",
-      "base": "Sumatran",
-      "creamer": "Whole Milk",
+      "name": "TesTea",
+      "baseType": "tea",
+      "base": "Lemon Zinger",
+      "creamer": "Almondmilk",
       "addins": [
-        "Vanilla",
-        "Cinnamon"
+        "Honey"
       ],
       "iced": false,
       "vegan": false,
-      "description": "Sweet cinnamony coffee goodness",
+      "description": "A tea that tests.",
       "id": 3
     }
   ],
   "users": [
     {
       "id": 1,
-      "username": "someone",
-      "drinks": [
+      "username": "Isaac",
+      "favorites": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "username": "Itche",
+      "favorites": [
         1
       ]
     }
