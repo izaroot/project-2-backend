@@ -174,43 +174,13 @@
       "iced": false,
       "vegan": true,
       "description": "For the people with no time."
-    },
-    {
-      "name": "Vanilla Chai",
-      "baseType": "tea",
-      "base": "Chai Tea",
-      "creamer": "Oat Milk",
-      "addins": [
-        "Cinnamon",
-        "Vanilla"
-      ],
-      "iced": false,
-      "vegan": true,
-      "description": "Warm, vanilla flavor, with hints of clove and cinnamon.",
-      "id": 3
-    },
-    {
-      "name": "Iced Berry Blast",
-      "baseType": "tea",
-      "base": "Black Cherry Berry",
-      "creamer": "",
-      "addins": [
-        "Lemon",
-        "Honey"
-      ],
-      "iced": true,
-      "vegan": false,
-      "description": "Cool off with a refreshing burst of berry and lemon.",
-      "id": 4
     }
   ],
   "users": [
     {
       "id": 1,
       "username": "Isaac",
-      "favorites": [
-        1
-      ]
+      "favorites": []
     },
     {
       "id": 2,
