@@ -31,7 +31,7 @@
     {
       "id": 5,
       "name": "Cocoa",
-      "type": "cocoa",
+      "type": "addin",
       "description": "It's cocoa. That's it.",
       "vegan": true
     },
@@ -60,14 +60,14 @@
       "id": 9,
       "name": "Vanilla",
       "type": "addin",
-      "description": "",
+      "description": "Light and sweet.",
       "vegan": true
     },
     {
       "id": 10,
       "name": "Honey",
       "type": "addin",
-      "description": "",
+      "description": "A natural sweetenr",
       "vegan": false
     },
     {
@@ -146,6 +146,118 @@
       "type": "tea",
       "description": "A wonderfully balanced sweet and spicy treat you can enjoy rain or shine.",
       "vegan": true
+    },
+    {
+      "id": 22,
+      "name": "Boba Pearls",
+      "type": "addin",
+      "description": "A bubbly treat.",
+      "vegan": true
+    },
+    {
+      "id": 23,
+      "name": "Espresso",
+      "type": "coffee",
+      "description": "Strong shot.",
+      "vegan": true
+    },
+    {
+      "id": 24,
+      "name": "French Roast",
+      "type": "coffee",
+      "description": "Doubly roasted, smokey and sweet.",
+      "vegan": true
+    },
+    {
+      "id": 25,
+      "name": "Hazelnut",
+      "type": "coffee",
+      "description": "Just nutty.",
+      "vegan": true
+    },
+    {
+      "id": 26,
+      "name": "French Vanilla",
+      "type": "coffee",
+      "description": "Vanilla. But French.",
+      "vegan": true
+    },
+    {
+      "id": 27,
+      "name": "Blueberry",
+      "type": "coffee",
+      "description": "Why berries and coffee should work, I don't know. It just does.",
+      "vegan": true
+    },
+    {
+      "id": 28,
+      "name": "Turkish",
+      "type": "coffee",
+      "description": "Bold but not smoky, with a strong bittersweet flavor.",
+      "vegan": true
+    },
+    {
+      "id": 29,
+      "name": "Brazilian",
+      "type": "coffee",
+      "description": "Low in acidity, smooth in body. Has notes of chocolate and almonds. Wonderful nose.",
+      "vegan": true
+    },
+    {
+      "id": 30,
+      "name": "Turkish",
+      "type": "coffee",
+      "description": "Bold but not smoky, with a strong bittersweet flavor.",
+      "vegan": true
+    },
+    {
+      "id": 31,
+      "name": "Sugar",
+      "type": "addin",
+      "description": "The common sweetener.",
+      "vegan": true
+    },
+    {
+      "id": 32,
+      "name": "Decaf Tea",
+      "type": "tea",
+      "description": "Caffeine free. Taste full.",
+      "vegan": true
+    },
+    {
+      "id": 33,
+      "name": "Skim Milk",
+      "type": "cream",
+      "description": "Milk from skinny cows.",
+      "vegan": false
+    },
+    {
+      "id": 34,
+      "name": "Costa Rican",
+      "type": "coffee",
+      "description": "Lightly roasted. Great for an afternoon pick-me-up.",
+      "vegan": true
+    },
+    {
+      "id": 35,
+      "name": "Whiskey",
+      "type": "addin",
+      "description": "Add a kick to any drink.",
+      "vegan": true
+    },
+    {
+      "id": 36,
+      "name": "Whipped Cream",
+      "type": "addin",
+      "description": "Add to any drink for a fun twist.",
+      "vegan": false
+    },
+    {
+      "id": 37,
+      "name": "Peppermint",
+      "type": "addin",
+      "description": "Cool and refreshing.",
+      "vegan": true
     }
   ],
   "beverages": [
@@ -174,13 +286,136 @@
       "iced": false,
       "vegan": true,
       "description": "For the people with no time."
+    },
+    {
+      "id": 3,
+      "name": "Pearl Milk Tea",
+      "base": "Oolong Tea",
+      "baseType": "tea",
+      "creamer": "Whole Milk",
+      "addins": [
+        "Boba Pearls"
+      ],
+      "iced": true,
+      "vegan": false,
+      "description": "A bubbly, milky treat by Katie."
+    },
+    {
+      "id": 4,
+      "name": "English Breakfast Tea",
+      "base": "Decaf Tea",
+      "baseType": "tea",
+      "creamer": "Whole Milk",
+      "addins": [
+        "Sugar"
+      ],
+      "iced": false,
+      "vegan": false,
+      "description": "Classic decaf tea. Add a dash of sugar and a splash of milk and you're set!"
+    },
+    {
+      "id": 5,
+      "name": "Americano",
+      "base": "Espresso",
+      "baseType": "coffee",
+      "creamer": "",
+      "addins": [
+        ""
+      ],
+      "iced": false,
+      "vegan": true,
+      "description": "It's black coffee the American way."
+    },
+    {
+      "id": 6,
+      "name": "Irish Coffee",
+      "base": "Columbian",
+      "baseType": "coffee",
+      "creamer": "",
+      "addins": [
+        "Whiskey, Sugar, Whipped Cream"
+      ],
+      "iced": false,
+      "vegan": false,
+      "description": ""
+    },
+    {
+      "id": 7,
+      "name": "Iced Coffee",
+      "base": "Columbian",
+      "baseType": "coffee",
+      "creamer": "",
+      "addins": [
+        "Sugar, Whipped Cream, Vanilla, Cinnamon"
+      ],
+      "iced": true,
+      "vegan": false,
+      "description": "A classic."
+    },
+    {
+      "id": 8,
+      "name": "Iced Green Tea",
+      "base": "Green Tea",
+      "baseType": "tea",
+      "creamer": "",
+      "addins": [
+        "Lemon, Peppermint"
+      ],
+      "iced": true,
+      "vegan": true,
+      "description": "Rejuvenate with this minty coolness."
+    },
+    {
+      "id": 9,
+      "name": "Mocha Hazelnut",
+      "base": "Hazelnut",
+      "baseType": "coffee",
+      "creamer": "Whole Milk",
+      "addins": [
+        "Cocoa, Sugar"
+      ],
+      "iced": false,
+      "vegan": false,
+      "description": "Coffee, cocoa, and hazelnut. What more could you want."
+    },
+    {
+      "id": 10,
+      "name": "Sean's luke-warm coffee with 'milk'",
+      "base": "Columbian",
+      "baseType": "coffee",
+      "creamer": "Oat Milk",
+      "addins": [
+        "Sugar"
+      ],
+      "iced": false,
+      "vegan": true,
+      "description": " 'Low heat because I don't like it scalding hot.' "
+    },
+    {
+      "name": "Irish Oat Coffee",
+      "baseType": "coffee",
+      "base": "Columbian",
+      "creamer": "Oat Milk",
+      "addins": [
+        "Cinnamon",
+        "Vanilla",
+        "Sugar",
+        "Whipped Cream",
+        "Whiskey"
+      ],
+      "iced": false,
+      "vegan": false,
+      "description": "A great start for a bad day.",
+      "id": 11
     }
   ],
   "users": [
     {
       "id": 1,
       "username": "Isaac",
-      "favorites": []
+      "favorites": [
+        1
+      ]
     },
     {
       "id": 2,
@@ -188,6 +423,16 @@
       "favorites": [
         1
       ]
+    },
+    {
+      "username": "David",
+      "favorites": [
+        1,
+        7,
+        9,
+        5
+      ],
+      "id": 3
     }
   ]
 }
